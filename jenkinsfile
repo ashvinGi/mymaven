@@ -1,0 +1,47 @@
+pipeline
+{
+        agent any
+        stages
+          {
+              
+              stage("Continous-Downloading")
+              {
+                  
+                  steps
+                  {
+                      
+                     git 'https://github.com/ashvinGi/mymaven.git' 
+                      
+                  }
+                  
+              }
+              stage("Continous-Build")
+              {
+                  
+                  steps
+                  {
+                      
+                  sh 'mvn package' 
+                      
+                  }
+                  
+              }
+              
+              
+              
+          }
+                
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+    
+    
+    
+}
