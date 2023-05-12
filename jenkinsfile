@@ -4,7 +4,7 @@ pipeline
         stages
           {
               
-              stage("Continous-Downloading git")
+              stage("Continous-Downloading ")
               {
                   
                   steps
