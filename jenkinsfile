@@ -15,7 +15,7 @@ pipeline
                   }
                   
               }
-              stage("Continous-Build git")
+              stage("Continous-Build git from")
               {
                   
                   steps
